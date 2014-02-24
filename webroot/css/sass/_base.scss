@@ -2,7 +2,7 @@ html,body{
   margin:0;
   padding:0;
   font-family: 'Exo 2', sans-serif;
-  background-color:#eeeeee;
+  background-color:#fff;
 }
 #header{
   background-image: url('../img/bgheader.gif');
@@ -19,8 +19,11 @@ html,body{
 a{
   text-decoration: none;
   font-weight: bold;
-  color: #118855;
+  color: $maincolor;
   &:hover{
     text-decoration: underline;
   }
+}
+.nodes .node:nth-child(n+2){
+  border-top:8px solid $maincolor;
 }

@@ -8,8 +8,7 @@
     "authorUrl" : "http://sakulstra.org",
 
     "menus" : [
-        "main",
-        "footer"
+        "main"
     ],
 
     "regions" : [

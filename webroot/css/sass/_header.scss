@@ -1,3 +1,4 @@
+/* mainmenu */
 nav{
   position:absolute;
   bottom:0;
@@ -22,6 +23,7 @@ nav{
     }
   }
 }
+/* style for github and facebook icon */
 a.menuico {
   &:hover{
     background:none;
@@ -34,11 +36,12 @@ a.menuico {
     transition:color .3s;
   }
 }
-#language_nav{
-  position:absolute;
-  top:0;
-  right:0;
-  & ul li a{
-    font-size:18px;
+/* Pagetitle and tagline*/
+.logo{
+  padding-top:40px;
+  text-align:center;
+  & h1{
+    margin:0;
   }
+  color:#fff;
 }

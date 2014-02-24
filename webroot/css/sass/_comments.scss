@@ -1,0 +1,22 @@
+input[type='text'],input[type='email']{
+  width:100%;
+}
+button,input[type='submit']{
+  background-color:$maincolor;
+  border:none;
+  color:#fff;
+  font-weight:800;
+  padding:3px 3px;
+  transition: color 0.4s;
+  &:hover{
+    border:3px solid $maincolor;
+    background-color:#fff;
+    color:$maincolor;
+    padding:0;
+    transition: color 0.4s;
+  }
+}
+textarea{
+  min-width: 100%;
+  max-width: 100%;
+}
